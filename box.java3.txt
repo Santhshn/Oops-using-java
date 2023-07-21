@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+public class box3
+{
+float depth;
+float height;
+float breath;
+box3();
+{
+Scanner S=new Scanner(System.in);
+depth=S.nextFloat();
+height=S.nextFloat();
+breath=S.nextFloat();
+float vol=depth*height*breadth;
+System.out.println(vol);
+}
+}class main
+{
+public static void main(String args[])
+{
+box3 o=new box3();
+}
+}
+
+
+
